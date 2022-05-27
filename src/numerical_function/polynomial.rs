@@ -1,6 +1,6 @@
 use super::Function;
 
-#[derive(Default)]
+#[derive(Debug, Default)]
 pub struct Polynomial {
     coefficients: Vec<f64>,
     derivative: Option<Box<Polynomial>>,

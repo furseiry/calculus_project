@@ -1,7 +1,6 @@
 pub mod polynomial;
 
 pub trait Function {
-
     fn value(&self, pos: f64) -> f64;
 
     fn derive(&self, pos: f64) -> f64 {
